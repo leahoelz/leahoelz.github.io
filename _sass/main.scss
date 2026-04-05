@@ -74,13 +74,19 @@ hr {
 #about .image {
     max-width: 180px;
     margin: 0 auto;
-    border: none !important;
-    outline: none !important;
 
-    img {
+    &, &::after, &::before,
+    img, img::after, img::before {
         border: none !important;
         outline: none !important;
         box-shadow: none !important;
+        border-style: none !important;
+        border-width: 0 !important;
+        -webkit-border-image: none !important;
+        border-image: none !important;
+    }
+
+    img {
         object-fit: cover;
         object-position: top;
         aspect-ratio: 1 / 1;

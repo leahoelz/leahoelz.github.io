@@ -51,7 +51,16 @@ a.navbar-item.is-active {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;
+
+        @media screen and (max-width: 768px) {
+            background-size: contain;
+            background-position: center center;
+            background-attachment: scroll;
+        }
+
+        @media screen and (min-width: 769px) {
+            background-attachment: fixed;
+        }
         top: 0px;
         right: 0px;
         bottom: 0px;
