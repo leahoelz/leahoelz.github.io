@@ -2,18 +2,18 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'https://leahoelz.github.io'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl: ''
 
 # Title of the Site
 title: Lea Hölz
 # Description of the Site
 description: Psychologische Psychotherapie
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: /assets/images/leahoelz2.jpg
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: Psychotherapie, Psychologische Psychotherapeutin, Verhaltenstherapie, Lea Hölz, Einzeltherapie, Gruppentherapie, Kinder- und Jugendlichenpsychotherapie
 # URL for the Image of custom Favicon
 favicon-url: 
 
@@ -41,13 +41,13 @@ google-analytics: UA-163806439-1
 disqus-shortname: thedevslot
 
 # Name of the Author
-author-name: TheDevsLot
+author-name: Lea Hölz
 # URL for the Image of the Author
 author-image: /assets/images/leahoelz2.jpg
 # 60 Words About the Author
 author-about: Lea Hölz · M.Sc. Psychologie · Psychologische Psychotherapeutin · Verhaltenstherapie für Erwachsene · Einzel- und Gruppentherapie · Zusatzausbildung für Kinder und Jugendliche · Behandlung von Patient*innen aller Krankenkassen und Privatpatient*innen
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://leahoelz.github.io
 
 # SASS
 sass:
@@ -58,6 +58,8 @@ sass:
 plugins:
   - jekyll-admin
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Permalink
 permalink: "blog/:title"
